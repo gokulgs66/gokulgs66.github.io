@@ -1,0 +1,45 @@
+a=[5,10,33,27]
+(4) [5, 10, 33, 27]
+a.push(70)
+5
+a
+(5) [5, 10, 33, 27, 70]
+a.pop
+ƒ pop() { [native code] }
+a.pop()
+70
+a
+(4) [5, 10, 33, 27]
+a.shift(11)
+5
+a
+(3) [10, 33, 27]
+a.unshift(5)
+4
+a.unshift(11)
+5
+a
+(5) [11, 5, 10, 33, 27]
+a.length
+5
+
+
+
+const carsTest = ["BMW", "Volvo", "Saab", "Ford"];
+undefined
+carsTestest.length
+VM514:1 Uncaught ReferenceError: carsTestest is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM514:1
+carsTest.length
+4
+carsTest[0]
+'BMW'
+carTest[1]
+VM612:1 Uncaught ReferenceError: carTest is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM612:1
+carsTest[1]
+'Volvo'
+carsTest[carsTest.length -1]
+'Ford'

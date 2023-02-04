@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    .democlass {
+      color: red;
+    }
+  </style>
+
+  <body>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <nav>
+      <ul>
+        <li><a href="./login.html"><i class="fa-solid fa-right-to-bracket"></i> login</a></li>
+        <li><a href="./signup.html"><i class="fa-solid fa-user-plus"></i>  signup</a></li>
+        <li><a href="./calc.html"><i class="fa-solid fa-calculator"></i>  calculator</a></li>
+        <li><a href="./Pagination.html"><i class="fa-solid fa-file"></i> Pagination</a></li>
+        <li><a href="./employee.html"><i class="fa-solid fa-user"></i> Employee</a></li>
+      </ul>
+    </nav>
+    <h1 id="myH1">The Element Object</h1>
+    <input id="password" type="password" />
+    <h2>The setAttribute() Method</h2>
+
+    <p>Click "Add Class" to add a class attribute to the h1 element:</p>
+
+    <button onclick="myFunction()">Add Class</button>
+
+    <script>
+      function myFunction() {
+        document.getElementById("myH1").setAttribute("class", "democlass");
+        if (
+          document.getElementById("password").getAttribute("type") ===
+          "password"
+        )
+          document.getElementById("password").setAttribute("type", "text");
+        else
+          document.getElementById("password").setAttribute("type", "password");
+      }
+    </script>
+  </body>
+</html>

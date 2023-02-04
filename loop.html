@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <nav>
+      <ul>
+        <li><a href="./login.html"><i class="fa-solid fa-right-to-bracket"></i> login</a></li>
+        <li><a href="./signup.html"><i class="fa-solid fa-user-plus"></i>  signup</a></li>
+        <li><a href="./calc.html"><i class="fa-solid fa-calculator"></i>  calculator</a></li>
+        <li><a href="./Pagination.html"><i class="fa-solid fa-file"></i> Pagination</a></li>
+        <li><a href="./employee.html"><i class="fa-solid fa-user"></i> Employee</a></li>
+      </ul>
+    </nav>
+    <p id="demo"></p>
+    <p id="dowhiledemo"></p>
+    <p id="fordemo"></p>
+
+    <p id="patternDemo"></p>
+
+    <script>
+      const cars = ["BMW", "Volvo", "Saab", "Ford"];
+
+      let i = 0;
+      let text = "";
+      while (i < cars.length) {
+        text += cars[i] + "<br>";
+        i++;
+      }
+
+      document.getElementById("demo").innerHTML = text;
+      let j = 0;
+      let text2 = "";
+      do {
+        text2 += cars[j] + "<br>";
+        j++;
+      } while (j < cars.length);
+
+      document.getElementById("dowhiledemo").innerHTML = text2;
+
+      let text3 = "";
+      for (let k = 0; k < cars.length; k++) {
+        text3 += cars[k] + "<br>";
+      }
+      document.getElementById("fordemo").innerHTML = text3;
+
+
+      let star = ''
+      for(let i=0;i<8;i++){
+        star += '<div>';
+        for(let j=i;j<8;j++){
+            star += '<span>*</span>';
+        }
+        star += '</div>';
+
+      }
+
+      document.getElementById("patternDemo").innerHTML = star;
+
+
+
+    </script>
+  </body>
+</html>

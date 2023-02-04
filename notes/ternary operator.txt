@@ -1,0 +1,8 @@
+1<2 ? alert('hi') : alert('bye')
+undefined
+1>2 ? alert('hi') : alert('bye')
+undefined
+c=1>2?55:45
+45
+c
+45

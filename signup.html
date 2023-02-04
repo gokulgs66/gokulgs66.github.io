@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="./css/signup.css">
+   <script src="https://kit.fontawesome.com/8eb56ee179.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <nav>
+      <ul>
+        <li><a href="./login.html"><i class="fa-solid fa-right-to-bracket"></i> login</a></li>
+        <li><a href="./signup.html"><i class="fa-solid fa-user-plus"></i>  signup</a></li>
+        <li><a href="./calc.html"><i class="fa-solid fa-calculator"></i>  calculator</a></li>
+        <li><a href="./Pagination.html"><i class="fa-solid fa-file"></i> Pagination</a></li>
+        <li><a href="./employee.html"><i class="fa-solid fa-user"></i> Employee</a></li>
+      </ul>
+    </nav>
+    <div id="top">
+        <h1>SIGNUP PAGE</h1>
+    </div>
+   
+    
+    <div id="signupform">
+        <div class="box">
+            <label for="First Name">First Name</label>
+            <input type="text" placeholder="eg.john" id="firstName">
+        </div>
+        <div class="box">
+            <label for="Last Name" >Last Name</label>
+            <input type="text" name="" id="name2" placeholder="eg.raj">
+        </div>
+        <div class="box">
+            <label for="Email">Email</label>
+            <input type="text" name="" id="mailid" >
+        </div>
+        <div class="box">
+            <label for="Password">Password</label>
+            <input type="password" name="" id="pass" minlength="8" maxlength="15">
+        </div>
+        <div class="button">
+          <button onclick="postData()">Sign up</button>
+        </div>
+    </div>
+    <script src="./scripts/signup.js">
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pagination</title>
+    <link rel="stylesheet" href="./css/pagination.css" />
+    <script src="https://kit.fontawesome.com/8eb56ee179.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <nav>
+      <ul>
+        <li><a href="./login.html"><i class="fa-solid fa-right-to-bracket"></i> login</a></li>
+        <li><a href="./signup.html"><i class="fa-solid fa-user-plus"></i>  signup</a></li>
+        <li><a href="./calc.html"><i class="fa-solid fa-calculator"></i>  calculator</a></li>
+        <li><a href="./Pagination.html"><i class="fa-solid fa-file"></i> Pagination</a></li>
+        <li><a href="./employee.html"><i class="fa-solid fa-user"></i> Employee</a></li>
+      </ul>
+    </nav>
+    <h1>PAGINATION</h1>
+    <div>
+      <input type="button" id="btn" value="<<" />
+      <input onclick="diaplaypage(cpage - 1)" type="button" id="btn" value="<" />
+      <input onclick="diaplaypage(1)" type="button" id="btn" value="1" />
+      <input onclick="diaplaypage(2)" type="button" id="btn" value="2" />
+      <input onclick="diaplaypage(3)" type="button" id="btn" value="3" />
+      <input onclick="diaplaypage(4)" type="button" id="btn" value="4" />
+      <input onclick="diaplaypage(5)" type="button" id="btn" value="5" />
+      <input onclick="diaplaypage(6)" type="button" id="btn" value="6" />
+      <input onclick="diaplaypage(cpage + 1)" type="button" id="btn" value=">" />
+      <input type="button" id="btn" value=">>" />
+    </div>
+    <div>
+      <table class="box">
+        <thead>
+          <tr id="heading">
+            <!-- <th>Post ID</th>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Body</th> -->
+          </tr>
+        </thead>
+        <tbody id="tableData">
+          <!-- <tr>
+            <td>111</td>
+            <td>87687</td>
+            <td>aaa</td>
+            <td>abc@gmail.com</td>
+            <td>abc</td>
+          </tr>
+          <tr>
+            <td>222</td>
+            <td>76467</td>
+            <td>bbb</td>
+            <td>jjc@gmail.com</td>
+            <td>hhgf</td>
+          </tr>
+          <tr>
+            <td>333</td>
+            <td>87665</td>
+            <td>ccc</td>
+            <td>hgf@gmail.com</td>
+            <td>hggt</td>
+          </tr>
+          <tr>
+            <td>444</td>
+            <td>78767</td>
+            <td>ddd</td>
+            <td>gfd@gmail.com</td>
+            <td>kiuh</td>
+          </tr>
+          <tr>
+            <td>444</td>
+            <td>54344</td>
+            <td>jgfj</td>
+            <td>zsg@gmail.com</td>
+            <td>iuyt</td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+    <script src="./scripts/pagination.js"></script>
+  </body>
+</html>

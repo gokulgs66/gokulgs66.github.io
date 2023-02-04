@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+body {
+    background-image: url(../images/nature.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    color: blue;
+}
+
+#btn {
+    width: 45px;
+    height: 40px;
+    position: relative;
+    left: 30%;
+    top: 40px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#btn:focus {
+    background-color: rgb(152, 246, 169);
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 98%;
+}
+
+.box {
+    position: relative;
+    top: 90px;
+    left: 14px;
+}
+
+th {
+    color: blue;
+    background-color: lightblue;
+    /* text-transform: capitalize; */
+}
+
+tr {
+    background-color: rgb(242, 144, 219);
+}
