@@ -88,14 +88,14 @@ button:hover {
 
 
 
-table thead tr td {
+table tbody tr td {
     background-color: rgb(107, 244, 107);
     padding: 10px;
 
 
 }
 
-table thead tr th {
+table tbody tr th {
     background-color: rgb(44, 44, 247);
     padding: 10px;
 
