@@ -8,25 +8,38 @@
 
 body {
     background-image: url(../images/nature.jpg);
-    width: 100%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 
 h1 {
     text-align: center;
-    position: relative;
-    top: 10px;
+    margin-top: 10px;
     color: blue;
 }
 
-#btn {
+
+
+.btn1 input {
     width: 45px;
     height: 40px;
-    position: relative;
-    left: 30%;
-    top: 40px;
-    margin-left: 15px;
     cursor: pointer;
+}
+
+.btn1{
+display: flex;
+justify-content: center;
+gap: 15px;
+
+}
+
+
+
+nav ul li {
+    margin: auto;
 }
 
 #btn:focus {
@@ -47,10 +60,17 @@ table {
     width: 98%;
 }
 
+.box1{
+    display: flex;
+    justify-content: center;
+}
 .box {
-    position: relative;
+    /* position: relative;
     top: 90px;
-    left: 14px;
+    left: 14px; */
+    /* margin: auto; */
+    margin-top: 70px;
+
 }
 
 th {
@@ -62,3 +82,5 @@ th {
 tr {
     background-color: rgb(242, 144, 219);
 }
+
+
