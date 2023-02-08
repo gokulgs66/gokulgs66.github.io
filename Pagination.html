@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>pagination</title>
-    <link rel="stylesheet" href="./css/pagination.css" />
+    <link rel="stylesheet" href="../css/pagination.css" />
     <script src="https://kit.fontawesome.com/8eb56ee179.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="../css/navbar.css">
   </head>
   <body>
-    <link rel="stylesheet" href="./css/navbar.css">
+    
     <nav>
       <ul>
         <li><a href="./login.html"><i class="fa-solid fa-right-to-bracket"></i> login</a></li>
@@ -21,19 +21,19 @@
       </ul>
     </nav>
     <h1>PAGINATION</h1>
-    <div>
-      <input type="button" id="btn" value="<<" />
-      <input onclick="diaplaypage(cpage - 1)" type="button" id="btn" value="<" />
-      <input onclick="diaplaypage(1)" type="button" id="btn" value="1" />
-      <input onclick="diaplaypage(2)" type="button" id="btn" value="2" />
-      <input onclick="diaplaypage(3)" type="button" id="btn" value="3" />
-      <input onclick="diaplaypage(4)" type="button" id="btn" value="4" />
-      <input onclick="diaplaypage(5)" type="button" id="btn" value="5" />
-      <input onclick="diaplaypage(6)" type="button" id="btn" value="6" />
-      <input onclick="diaplaypage(cpage + 1)" type="button" id="btn" value=">" />
-      <input type="button" id="btn" value=">>" />
+    <div class="btn1">
+      <input type="button"  value="<<" />
+      <input onclick="diaplaypage(cpage - 1)" type="button"  value="<" />
+      <input onclick="diaplaypage(1)" type="button"  value="1" />
+      <input onclick="diaplaypage(2)" type="button"  value="2" />
+      <input onclick="diaplaypage(3)" type="button"  value="3" />
+      <input onclick="diaplaypage(4)" type="button"  value="4" />
+      <input onclick="diaplaypage(5)" type="button"  value="5" />
+      <input onclick="diaplaypage(6)" type="button"  value="6" />
+      <input onclick="diaplaypage(cpage + 1)" type="button"  value=">" />
+      <input type="button"  value=">>" />
     </div>
-    <div>
+    <div class="box1">
       <table class="box">
         <thead>
           <tr id="heading">
@@ -83,6 +83,6 @@
         </tbody>
       </table>
     </div>
-    <script src="./scripts/pagination.js"></script>
+    <script src="../scripts/pagination.js"></script>
   </body>
 </html>
