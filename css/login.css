@@ -3,20 +3,23 @@ body {
 }
 
 #loginForm {
-    background-color: beige;
+    background-color: rgb(205, 205, 202);
     width: 40%;
-    margin-left: 30%;
-    ;
-    padding: 10px;
-    margin-top: 12%;
+    padding: 1%;
     border-radius: 10px;
-    ;
 }
 
 #loginForm input {
-    width: 96%;
+    width: 90%;
+    margin-top: 5px;
 }
 
-#loginForm div {
-    margin: 10px;
+#loginForm button{
+    margin-top:10px;
+}
+
+.log{
+  display: flex;
+  justify-content: center;
+margin-top: 15%;  
 }
